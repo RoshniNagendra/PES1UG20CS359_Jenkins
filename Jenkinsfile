@@ -4,7 +4,7 @@
     stages {
         stage('Build') {
             steps {
-                sh 'g++ -o PES1UG20CS359-1 PES1UG20CS359-1.cpp'
+                sh 'g++1 -o PES1UG20CS359-1 PES1UG20CS359-1.cpp'
             }
         }
         stage('Test') {
